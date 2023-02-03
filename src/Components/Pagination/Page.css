@@ -1,0 +1,15 @@
+.button {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(231, 240, 247);
+  border: 0px;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.button:focus {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
